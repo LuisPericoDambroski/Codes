@@ -1,12 +1,18 @@
 function escrevaCalcular() {
-    var numero = parseFloat(document.getElementById("primeiroFatorial").value)
-    var contador = numero
-    resultado = 0
-    for (contador = numero; contador >= 0; contador--) {
-        var resultado = numero * contador * resultado
-
+    var numero = parseInt(document.getElementById("primeiroFatorial").value)
+    var contador 
+    var resultado=1
+    
+    if(numero===0){
+        resultado=1
     }
+    for (contador =numero ; contador >=1;contador--){
 
-    parseFloat(document.getElementById("Resultado").value = (`${calculo}`))
+        resultado*=contador
+       
+    }
+    var calculo = resultado
+
+    parseInt(document.getElementById("Resultado").value = (`${calculo.toFixed(2)}`))
 
 }

@@ -2,31 +2,6 @@ var titulo = document.querySelector(`h1`)
 titulo.innerHTML = "hello world"
 var paragrafo = document.querySelector(`p`)
 
-paragrafo.innerHTML = "japones"
-
-function escrevaOlá() {
-    alert("fala zé")
-}
-
-function escrevagrau() {
-    while (true) {
-        var grau = prompt("Sim/Não")
-
-        if (grau === "Sim") {
-            alert("Brabo")
-            { break; }
-        }
-
-        else if (grau === "Não") {
-            alert("ihhh paia")
-            { break; }
-
-        } else {
-            alert("Escreve direito poha")
-        }
-
-    }
-}
 function escrevasoma() {
     var num1 = parseFloat(prompt("digite um numero"))
     var num = parseFloat(prompt("digite outro numero"))
