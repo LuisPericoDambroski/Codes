@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="media.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="notas">
+        <ul>
+            <li>
+
+                <input type="text" name="primeiraNota" id="primeiraNota">
+                <label for="primeiraNota">primeira nota</label>
+                <br>
+            </li>
+            <li>
+
+                <input type="number" name="segundaNota" id="segundaNota">
+                <label for="segunda nota">segunda nota</label>
+                <br>
+            </li>
+            <li>
+                <input type="number" name="terceiraNota" id="terceiraNota">
+                <label for="terceira nota">terceira nota</label>
+                <br>
+            </li>
+            <li>
+                <input type="number" name="quartaNota" id="quartaNota">
+                <label for="quarta nota">quarta nota</label>
+                <br>
+            </li>
+        </ul>
+    </div>
+    <div class="botao">
+        <div style="display: grid; grid-template-columns: repeat(2);" class="media">
+            <button onclick="calculo()">Calcular Média</button>
+            <p></p>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(2); " class="aprovado">
+            <button onclick="aprovado()">Aprovado/Reprovado</button>
+            <p1></p1>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

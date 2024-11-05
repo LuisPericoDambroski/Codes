@@ -1,0 +1,26 @@
+    .notas {
+        gap: 30;
+        padding: 20px;
+        margin: 20px;
+    }
+    .notas li {
+        gap: 20;
+        padding: 10px;
+        margin: 10px;
+        list-style: none;
+    }
+
+    .botao{
+        display: flex;
+        gap: 30px;
+        justify-content: center;      
+
+    }
+    .botao button{
+       padding: 10px;
+       margin: 0px;
+    }
+    .aprovado{
+        padding: 5px;
+        
+    }
